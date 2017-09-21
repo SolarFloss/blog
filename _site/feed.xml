@@ -1,14 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2017-09-20T10:06:04-04:00</updated><id>/blog/</id><title type="html">Nick’s Deep Deep Deep Dive</title><subtitle>This is where I post my wild wild adventures in  the wonderful world of software and web development. There will be tears and there will be smiles, but most of all, there will be discovery
-</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="/blog/jekyll/update/2017/09/20/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-09-20T09:31:37-04:00</published><updated>2017-09-20T09:31:37-04:00</updated><id>/blog/jekyll/update/2017/09/20/welcome-to-jekyll</id><content type="html" xml:base="/blog/jekyll/update/2017/09/20/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<generator uri="http://jekyllrb.com" version="3.5.2">Jekyll</generator>
+<link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" />
+<link href="http://localhost:4000/blog/" rel="alternate" type="text/html" />
+<updated>2017-09-21T17:19:48-04:00</updated>
+<id>http://localhost:4000/blog/</id>
+<subtitle>I'm really just trying to make a living by becoming self employed. Join me as I (try to) build things in order to get me there!
+</subtitle>
+<entry>
+<title>Welcome to Jekyll!</title>
+<link href="http://localhost:4000/blog/Nunc-varius-interdum/" rel="alternate" type="text/html" title="Welcome to Jekyll!" />
+<published>2017-09-20T09:31:37-04:00</published>
+<updated>2017-09-20T09:31:37-04:00</updated>
+<id>http://localhost:4000/blog/first-post</id>
+<content type="html" xml:base="http://localhost:4000/blog/Nunc-varius-interdum/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
 &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;{% highlight ruby %}
+def print_hi(name)
+  puts “Hi, #{name}”
+end
+print_hi(‘Tom’)
+#=&amp;gt; prints ‘Hi, Tom’ to STDOUT.
+{% endhighlight %}&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut turpis turpis, efficitur eget accumsan vitae, viverra sed lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam eleifend blandit tristique.&lt;/p&gt;
+
+&lt;h2 id=&quot;nulla-dictum-dui-lobortis-ullamcorper-vehicula-magna-sem-lacinia-nisi-in-venenatis-ligula-augue-in-leo&quot;&gt;Nulla dictum, dui lobortis ullamcorper vehicula, magna sem lacinia nisi, in venenatis ligula augue in leo.&lt;/h2&gt;
+
+&lt;p&gt;Donec euismod pharetra lorem at accumsan. Vestibulum magna lorem, volutpat nec quam at, bibendum sagittis massa. Etiam dictum erat vehicula purus porttitor, quis fermentum nulla aliquam. Cras suscipit, tortor cursus condimentum pharetra, quam nulla cursus diam, ut tincidunt mi massa id ante. Proin varius posuere nulla, sit amet porttitor ante scelerisque et. Duis vel sem leo.&lt;/p&gt;
+
+&lt;h3 id=&quot;maecenas-enim-tortor-commodo-quis-justo-at-congue-tristique-lacus&quot;&gt;Maecenas enim tortor, commodo quis justo at, congue tristique lacus.&lt;/h3&gt;
+
+&lt;p&gt;Nam malesuada dapibus auctor. Donec at luctus augue, quis pulvinar eros. Mauris orci eros, ullamcorper a magna in, placerat ultricies metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla ac semper sem, aliquet mattis lacus. Integer pretium sapien vel quam viverra aliquam. Vivamus pellentesque est quis purus condimentum, ac luctus ante porta. Ut ut pellentesque orci, quis lobortis turpis. Curabitur ut lobortis risus. Mauris vulputate tristique eleifend. Sed dictum, lacus vitae imperdiet condimentum, ligula eros convallis ante, non rhoncus eros ex laoreet ex. Maecenas ac efficitur nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
+</content>
+<summary>You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary>
+</entry>
+<entry>
+<title>Lorem Ipsum</title>
+<link href="http://localhost:4000/blog/lorem-ipsum/" rel="alternate" type="text/html" title="Lorem Ipsum" />
+<published>2017-09-19T09:31:37-04:00</published>
+<updated>2017-09-19T09:31:37-04:00</updated>
+<id>http://localhost:4000/blog/first-post</id>
+<content type="html" xml:base="http://localhost:4000/blog/lorem-ipsum/">&lt;h1 id=&quot;lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut turpis turpis, efficitur eget accumsan vitae, viverra sed lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam eleifend blandit tristique.&lt;/p&gt;
+
+&lt;h2 id=&quot;nulla-dictum-dui-lobortis-ullamcorper-vehicula-magna-sem-lacinia-nisi-in-venenatis-ligula-augue-in-leo&quot;&gt;Nulla dictum, dui lobortis ullamcorper vehicula, magna sem lacinia nisi, in venenatis ligula augue in leo.&lt;/h2&gt;
+
+&lt;p&gt;Donec euismod pharetra lorem at accumsan. Vestibulum magna lorem, volutpat nec quam at, bibendum sagittis massa. Etiam dictum erat vehicula purus porttitor, quis fermentum nulla aliquam. Cras suscipit, tortor cursus condimentum pharetra, quam nulla cursus diam, ut tincidunt mi massa id ante. Proin varius posuere nulla, sit amet porttitor ante scelerisque et. Duis vel sem leo.&lt;/p&gt;
+
+&lt;h3 id=&quot;maecenas-enim-tortor-commodo-quis-justo-at-congue-tristique-lacus&quot;&gt;Maecenas enim tortor, commodo quis justo at, congue tristique lacus.&lt;/h3&gt;
+
+&lt;p&gt;Nam malesuada dapibus auctor. Donec at luctus augue, quis pulvinar eros. Mauris orci eros, ullamcorper a magna in, placerat ultricies metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla ac semper sem, aliquet mattis lacus. Integer pretium sapien vel quam viverra aliquam. Vivamus pellentesque est quis purus condimentum, ac luctus ante porta. Ut ut pellentesque orci, quis lobortis turpis. Curabitur ut lobortis risus. Mauris vulputate tristique eleifend. Sed dictum, lacus vitae imperdiet condimentum, ligula eros convallis ante, non rhoncus eros ex laoreet ex. Maecenas ac efficitur nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
+</content>
+<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit</summary>
+</entry>
+</feed>
