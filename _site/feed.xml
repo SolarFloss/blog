@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 <generator uri="http://jekyllrb.com" version="3.5.2">Jekyll</generator>
-<link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" />
-<link href="http://localhost:4000/blog/" rel="alternate" type="text/html" />
-<updated>2017-09-21T23:19:06-04:00</updated>
-<id>http://localhost:4000/blog/</id>
+<link href="/feed.xml" rel="self" type="application/atom+xml" />
+<link href="/" rel="alternate" type="text/html" />
+<updated>2017-09-21T23:28:30-04:00</updated>
+<id>/</id>
 <subtitle>I'm really just trying to make a living by becoming self employed. Join me as I (try to) build things in order to get me there!
 </subtitle>
 <entry>
 <title>Welcome to Jekyll!</title>
-<link href="http://localhost:4000/blog/Nunc-varius-interdum/" rel="alternate" type="text/html" title="Welcome to Jekyll!" />
+<link href="/Nunc-varius-interdum/" rel="alternate" type="text/html" title="Welcome to Jekyll!" />
 <published>2017-09-20T09:31:37-04:00</published>
 <updated>2017-09-20T09:31:37-04:00</updated>
-<id>http://localhost:4000/blog/first-post</id>
-<content type="html" xml:base="http://localhost:4000/blog/Nunc-varius-interdum/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<id>/first-post</id>
+<content type="html" xml:base="/Nunc-varius-interdum/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
@@ -45,11 +45,11 @@ print_hi(‘Tom’)
 </entry>
 <entry>
 <title>Lorem Ipsum</title>
-<link href="http://localhost:4000/blog/lorem-ipsum/" rel="alternate" type="text/html" title="Lorem Ipsum" />
+<link href="/lorem-ipsum/" rel="alternate" type="text/html" title="Lorem Ipsum" />
 <published>2017-09-19T09:31:37-04:00</published>
 <updated>2017-09-19T09:31:37-04:00</updated>
-<id>http://localhost:4000/blog/first-post</id>
-<content type="html" xml:base="http://localhost:4000/blog/lorem-ipsum/">&lt;h1 id=&quot;lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/h1&gt;
+<id>/first-post</id>
+<content type="html" xml:base="/lorem-ipsum/">&lt;h1 id=&quot;lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/h1&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut turpis turpis, efficitur eget accumsan vitae, viverra sed lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam eleifend blandit tristique.&lt;/p&gt;
 
