@@ -8,7 +8,7 @@ body{
     padding: 0;
 }
 
-
+@import 'variables';
 
 
 /*
@@ -46,7 +46,7 @@ body{
             color: #4078c0;
         }
 
-        .twitter:hover{
+        .twitter:hover{ 
             color: #1dcaff;
         }
 
@@ -80,7 +80,7 @@ body{
 */
 .post-wrapper{
     margin: auto;
-    width: 60%;
+    width: $width;
     height: auto;
     position: relative;
     margin-bottom: 100px;
@@ -129,7 +129,7 @@ body{
 */
 .single-post-wrapper{
     margin: auto;
-    width: 60%;
+    width: $width;
     height: auto;
     margin-bottom: 30px;
     font-family: 'Raleway';
@@ -170,7 +170,7 @@ body{
     Footer
 */
 .footer-wrapper{
-    width: 60%;
+    width: $width;
     margin: auto;
     position: relative;
     padding-top: 20px;

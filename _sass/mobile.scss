@@ -1,0 +1,83 @@
+@media(max-width: 700px){
+
+    @import 'variables';
+
+    $width: 90%;
+
+    /*
+        Top wrapper
+    */
+    .top-wrapper{
+        margin-right: 0px;
+        padding-right: 0px;
+        .icons-wrapper{
+            grid-row: 1 / 2;
+            text-align: center;
+            align-self: center;
+            z-index: 2;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            svg{
+                margin: 0px 25px 0px 25px;
+                color: #d8d8d8;
+                outline: none;
+                width: 30px;
+                height: auto;
+                transition: all linear 0.1s;
+            }   
+    
+            .github:hover{
+                color: #4078c0;
+            }
+    
+            .twitter:hover{ 
+                color: #1dcaff;
+            }
+    
+            .youtube:hover{
+                color: #cc181e;
+            }
+        }
+
+        .main-text{
+            z-index: 2;
+            text-align: center;
+            grid-column: 1;
+            grid-row: 2 / 4;
+            font-family: 'Raleway', sans-serif;
+            font-size: 10vw;
+            align-self: center;
+            color: #d8d8d8;
+        }
+    }
+
+    
+    /*
+        Post wrapper
+    */
+    .post-wrapper{
+        width: $width;
+    }
+
+    .single-post-wrapper{
+        width: $width;
+    }
+
+    .footer-wrapper{
+        width: $width;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        .blog-info{
+            display: none;
+        }
+        .blog-info-small{
+            display: block;
+            float: left;
+            font-size: 13pt;
+            transform: translateY(0px);
+        }
+        a{
+            color: #7a7a7a;
+        }
+    }
+}
