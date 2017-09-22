@@ -144,6 +144,8 @@ body {
     background-color: #dbdbdb; }
   .footer-wrapper .blog-info a {
     color: #7a7a7a; }
+  .footer-wrapper .blog-info-small {
+    display: none; }
   .footer-wrapper .media-icons {
     float: right; }
     .footer-wrapper .media-icons svg {
