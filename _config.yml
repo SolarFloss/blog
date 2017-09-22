@@ -22,10 +22,11 @@ description: > # this means to ignore newlines until "baseurl:"
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/blog"
-production_url : http://solarfloss.github.io.com/blog
+production_url : http://solarfloss.github.io/blog
 BASE_PATH : http://solarfloss.com/blog
 twitter_username: Nickels_7
 github_username:  SolarFloss
+youtube_usernmae: sonicmanqaz
 
 # Build settings
 markdown: kramdown
