@@ -51,7 +51,8 @@ body {
     z-index: 2;
     font-family: 'Raleway', sans-serif;
     color: #afafaf;
-    text-align: center; }
+    text-align: center;
+    font-size: 12pt; }
 
 /*
     Posts wrapper
