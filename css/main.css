@@ -47,6 +47,11 @@ body {
     font-size: 50pt;
     align-self: center;
     color: #d8d8d8; }
+  .top-wrapper .last-edited-wrapper {
+    z-index: 2;
+    font-family: 'Raleway', sans-serif;
+    color: #afafaf;
+    text-align: center; }
 
 /*
     Posts wrapper

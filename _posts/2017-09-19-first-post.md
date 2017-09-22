@@ -2,6 +2,7 @@
 layout: post
 title:  "Lorem Ipsum"
 date:   2017-09-19 09:31:37 -0400
+edited: 2017-09-19 09:31:37 -0400
 categories: jekyll update
 permalink: /lorem-ipsum/
 ---

@@ -5,4 +5,7 @@
         <a href="#"><i class="icon youtube" data-feather="video"></i></a>
     </div>
     <p class="main-text">{{page.title}}</p>
+    {% if page.edited %}
+    <p class="last-edited-wrapper">Last Edited:{{ page.edited | date: '%B %d, %Y'  }}</p>
+    {% endif %}
 </div>
