@@ -83,6 +83,14 @@
     .single-post-wrapper{
         width: $width;
         font-size: 10pt;
+        p{
+            font-size: 12pt;
+            line-height: 1.7em;
+            .highlighter-rouge{
+                font-size: 12pt;
+            }
+        }
+
     }
 
     .footer-wrapper{

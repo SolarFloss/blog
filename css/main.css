@@ -60,7 +60,7 @@ body {
 */
 .post-wrapper {
   margin: auto;
-  width: 60%;
+  width: 70%;
   height: auto;
   position: relative;
   margin-bottom: 100px;
@@ -96,13 +96,13 @@ body {
 */
 .single-post-wrapper {
   margin: auto;
-  width: 60%;
+  width: 70%;
   height: auto;
   margin-bottom: 30px;
   font-family: 'Raleway';
   transition: all ease 0.5s; }
   .single-post-wrapper p {
-    line-height: 2;
+    line-height: 1.7em;
     font-size: 15pt;
     position: relative; }
     .single-post-wrapper p code {
@@ -129,7 +129,7 @@ body {
     Footer
 */
 .footer-wrapper {
-  width: 60%;
+  width: 70%;
   margin: auto;
   position: relative;
   padding-top: 20px;
@@ -224,6 +224,11 @@ body {
   .single-post-wrapper {
     width: 90%;
     font-size: 10pt; }
+    .single-post-wrapper p {
+      font-size: 12pt;
+      line-height: 1.7em; }
+      .single-post-wrapper p .highlighter-rouge {
+        font-size: 12pt; }
 
   .footer-wrapper {
     width: 90%;
