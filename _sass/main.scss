@@ -139,6 +139,10 @@ body{
     margin-bottom: 30px;
     font-family: 'Raleway';
     transition: all ease 0.5s;
+    a{
+        color: #18289D;
+        text-decoration: none;
+    }
     p{
         line-height: 1.7em;
         font-size: 15pt;
@@ -163,10 +167,9 @@ body{
             }
         }
 
-        a{
-            color: #18289D;
-            text-decoration: none;
-        }
+        
+
+        
     }
 }
 
@@ -195,6 +198,8 @@ body{
     }
 
     .blog-info{
+        float: left;
+        transform: translateY(-3px);
         a{
             color: #7a7a7a;
         }

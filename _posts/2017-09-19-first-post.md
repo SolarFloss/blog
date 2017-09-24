@@ -2,15 +2,19 @@
 layout: post
 title:  "Lorem Ipsum"
 date:   2017-09-19 09:31:37 -0400
-edited: 2017-09-19 09:31:37 -0400
+edited: 2017-09-23 09:31:37 -0400
 categories: jekyll update
 permalink: /lorem-ipsum/
 ---
+# Why on earth is this post still here?
+I'm going to be keeping this post here until I have a couple more posts. The home page looks so boring with so few posts! So for now, brush up on your latin.
+
+
 # Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut turpis turpis, efficitur eget accumsan vitae, viverra sed lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam eleifend blandit tristique. 
 
-## Nulla dictum, dui lobortis ullamcorper vehicula, magna sem lacinia nisi, in venenatis ligula augue in leo. 
+## Nulla dictum, dui lobortis ullamcorper vehicula
 
 Donec euismod pharetra lorem at accumsan. Vestibulum magna lorem, volutpat nec quam at, bibendum sagittis massa. Etiam dictum erat vehicula purus porttitor, quis fermentum nulla aliquam. Cras suscipit, tortor cursus condimentum pharetra, quam nulla cursus diam, ut tincidunt mi massa id ante. Proin varius posuere nulla, sit amet porttitor ante scelerisque et. Duis vel sem leo.
 

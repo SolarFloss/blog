@@ -4,12 +4,13 @@ title: This Is Where My Thoughts Go
 ---
 <div class="posts-wrapper">
         {% for post in site.posts %}
+
         <div class="post-wrapper">
-            
             <span class="post-date"><i class="icon" data-feather="calendar"></i>{{ post.date | date: '%B %d, %Y' }}</span>
             <br>
             <a href="{{post.url | prepend: site.baseurl}}"><h1 class="post-title">{{ post.title }}</h1></a>
             <span class="post-text">{{post.content | strip_html | truncatewords: 100}}</span>
         </div>
+
         {% endfor %}
 </div>
