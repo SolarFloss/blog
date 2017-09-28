@@ -51,8 +51,12 @@ body{
             color: #1dcaff;
         }
 
-        .youtube:hover{
+        .mail:hover{
             color: #cc181e;
+        }
+
+        .home:hover{
+            color: #5bff9f;
         }
     }
     .main-text{
@@ -120,6 +124,11 @@ body{
         background-color: #dbdbdb;
     }
 
+    .post-text{
+        line-height: 1.6em;
+        color: #262626;
+    }
+
     &:last-child:after{
         height: 0px;
     }
@@ -139,6 +148,20 @@ body{
     margin-bottom: 30px;
     font-family: 'Raleway';
     transition: all ease 0.5s;
+
+    img{
+        box-shadow: 1px 1px 5px #888888;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6{
+        color: #262626;
+    }
+
     a{
         color: #18289D;
         text-decoration: none;
@@ -147,6 +170,7 @@ body{
         line-height: 1.7em;
         font-size: 15pt;
         position: relative;
+        color: #262626;
         
         code{
             position: relative;
@@ -227,8 +251,12 @@ body{
             color: #1dcaff;
         }
 
-        .youtube:hover{
+        .mail:hover{
             color: #cc181e;
+        }
+
+        .rss:hover{
+            color: #f26522;
         }
     }
 }

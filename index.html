@@ -9,7 +9,7 @@ title: This Is Where My Thoughts Go
             <span class="post-date"><i class="icon" data-feather="calendar"></i>{{ post.date | date: '%B %d, %Y' }}</span>
             <br>
             <a href="{{post.url | prepend: site.baseurl}}"><h1 class="post-title">{{ post.title }}</h1></a>
-            <span class="post-text">{{post.content | strip_html | truncatewords: 100}}</span>
+            <span class="post-text">{{post.content | strip_html | truncatewords: 100}}</span><a href="{{post.url | prepend: site.baseurl}}"><b>more</b></a>
         </div>
 
         {% endfor %}

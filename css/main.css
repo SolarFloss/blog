@@ -36,8 +36,10 @@ body {
       color: #4078c0; }
     .top-wrapper .icons-wrapper .twitter:hover {
       color: #1dcaff; }
-    .top-wrapper .icons-wrapper .youtube:hover {
+    .top-wrapper .icons-wrapper .mail:hover {
       color: #cc181e; }
+    .top-wrapper .icons-wrapper .home:hover {
+      color: #5bff9f; }
   .top-wrapper .main-text {
     z-index: 2;
     text-align: center;
@@ -88,6 +90,9 @@ body {
     left: 0;
     bottom: -50px;
     background-color: #dbdbdb; }
+  .post-wrapper .post-text {
+    line-height: 1.6em;
+    color: #262626; }
   .post-wrapper:last-child:after {
     height: 0px; }
 
@@ -101,13 +106,23 @@ body {
   margin-bottom: 30px;
   font-family: 'Raleway';
   transition: all ease 0.5s; }
+  .single-post-wrapper img {
+    box-shadow: 1px 1px 5px #888888; }
+  .single-post-wrapper h1,
+  .single-post-wrapper h2,
+  .single-post-wrapper h3,
+  .single-post-wrapper h4,
+  .single-post-wrapper h5,
+  .single-post-wrapper h6 {
+    color: #262626; }
   .single-post-wrapper a {
     color: #18289D;
     text-decoration: none; }
   .single-post-wrapper p {
     line-height: 1.7em;
     font-size: 15pt;
-    position: relative; }
+    position: relative;
+    color: #262626; }
     .single-post-wrapper p code {
       position: relative;
       font-size: 14pt;
@@ -165,8 +180,10 @@ body {
       color: #4078c0; }
     .footer-wrapper .media-icons .twitter:hover {
       color: #1dcaff; }
-    .footer-wrapper .media-icons .youtube:hover {
+    .footer-wrapper .media-icons .mail:hover {
       color: #cc181e; }
+    .footer-wrapper .media-icons .rss:hover {
+      color: #f26522; }
 
 @media (max-width: 1200px) {
   .icons-wrapper {
@@ -232,6 +249,9 @@ body {
       line-height: 1.7em; }
       .single-post-wrapper p .highlighter-rouge {
         font-size: 12pt; }
+    .single-post-wrapper img {
+      width: 99%;
+      height: auto; }
 
   .footer-wrapper {
     width: 90%;
