@@ -166,12 +166,23 @@ body{
         color: #18289D;
         text-decoration: none;
     }
+
+    li{
+        font-size: 12pt;
+        margin-bottom: .5em;
+        ul{
+            margin-top: .5em;
+        }
+    }
+
     p{
         line-height: 1.7em;
         font-size: 15pt;
         position: relative;
         color: #262626;
         
+        
+
         code{
             position: relative;
             font-size: 14pt;
@@ -257,6 +268,39 @@ body{
 
         .rss:hover{
             color: #f26522;
+        }
+    }
+}
+
+
+//Top Button
+.top-button-wrapper{
+    button{
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width: 35px;
+        height: 35px;
+        color: white;
+        border: none;
+        z-index: 2;
+        transition: all ease 0.5s;
+        outline: none;
+
+        &:hover{
+            background-color: black !important; 
+        }
+
+        &:active{
+            transform: translateY(5px);
+        }
+
+        &.invisible{
+            background-color: rgba(66,69,96,0);   
+        }
+
+        &.visible{
+            background-color: rgba(66,69,96,0.5);
         }
     }
 }

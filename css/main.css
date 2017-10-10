@@ -118,6 +118,11 @@ body {
   .single-post-wrapper a {
     color: #18289D;
     text-decoration: none; }
+  .single-post-wrapper li {
+    font-size: 12pt;
+    margin-bottom: .5em; }
+    .single-post-wrapper li ul {
+      margin-top: .5em; }
   .single-post-wrapper p {
     line-height: 1.7em;
     font-size: 15pt;
@@ -184,6 +189,26 @@ body {
       color: #cc181e; }
     .footer-wrapper .media-icons .rss:hover {
       color: #f26522; }
+
+.top-button-wrapper button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+  color: white;
+  border: none;
+  z-index: 2;
+  transition: all ease 0.5s;
+  outline: none; }
+  .top-button-wrapper button:hover {
+    background-color: black !important; }
+  .top-button-wrapper button:active {
+    transform: translateY(5px); }
+  .top-button-wrapper button.invisible {
+    background-color: rgba(66, 69, 96, 0); }
+  .top-button-wrapper button.visible {
+    background-color: rgba(66, 69, 96, 0.5); }
 
 @media (max-width: 1200px) {
   .icons-wrapper {

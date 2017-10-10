@@ -3,7 +3,7 @@ layout: post
 title:  "Getting Started"
 categories: jekyll update
 permalink: /getting-started/
-edited: 2017-09-27 09:31:37 -0400
+edited: 2017-10-09 09:31:37 -0400
 published: true
 ---
 
@@ -42,8 +42,8 @@ So after I told her my rates, the wait between then and her reply seemed like fo
 # Moving Forward
 Even though that entire situation discouraged me quite a bit I am glad that I made it that far. It felt good to actually have a client, even if it was only for a couple of minutes. I decided to ride that wave of accomplishment and email one of the local businesses near me. I haven't gotten a reply yet, but that's okay because now that I've had a semi-client and have emailed a potential client, I feel more confident to get in contact with more clients. I'm making progress. It's slow, but it's still progress. Hopefully the next post I'm writing is telling you all about my first website, but until then, believe in yourself and stay confident.
 
-[shopify-article]:[https://www.shopify.com/partners/blog/96456262-starting-your-own-web-design-company-how-to-freelance-find-clients-and-grow-your-business]
-[upwork]:[https://www.upwork.com]
-[freelancer]:[https://www.freelancer.com]
-[fiverr]:[https://www.fiverr.com]
-[reseller]:[https://www.google.com/search?safe=off&client=opera&hs=g1R&q=reseller+hosting&oq=reseller+hosting&gs_l=psy-ab.3...77078.79546.0.79588.18.9.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..18.0.0....0.4ivFR14h8oU]
+[shopify-article]:https://www.shopify.com/partners/blog/96456262-starting-your-own-web-design-company-how-to-freelance-find-clients-and-grow-your-business
+[upwork]: https://www.upwork.com
+[freelancer]: https://www.freelancer.com
+[fiverr]: https://www.fiverr.com
+[reseller]: http://lmgtfy.com/?q=reseller+hosting
