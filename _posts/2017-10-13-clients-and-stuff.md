@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Getting Closer"
+title:  "First Steps"
 categories: getting clients first work
-permalink: /getting-closer/
+permalink: /first-steps-to-freelancing/
 edited: 2017-10-13 09:31:37 -0400
 published: true
 ---
