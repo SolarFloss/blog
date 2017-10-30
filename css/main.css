@@ -210,6 +210,12 @@ body {
   .top-button-wrapper button.visible {
     background-color: rgba(66, 69, 96, 0.5); }
 
+#disqus_thread {
+  margin: auto;
+  width: 70%;
+  margin-bottom: 50px;
+  margin-top: 50px; }
+
 @media (max-width: 1200px) {
   .icons-wrapper {
     display: grid;

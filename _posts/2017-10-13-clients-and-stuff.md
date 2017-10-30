@@ -7,6 +7,7 @@ edited: 2017-10-13 09:31:37 -0400
 published: true
 author: Nicholas Morris
 description: Learning how the webdev freelancing world works
+comments: true
 ---
 
 ### Before we get started

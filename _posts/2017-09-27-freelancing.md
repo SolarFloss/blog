@@ -5,6 +5,7 @@ categories: jekyll update
 permalink: /getting-started/
 edited: 2017-10-09 09:31:37 -0400
 published: true
+comments: true
 ---
 
 # The Inital Grind

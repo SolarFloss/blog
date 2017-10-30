@@ -7,6 +7,7 @@ edited: 2017-10-25 09:31:37 -0400
 published: true
 author: Nicholas Morris
 description: Getting my first client as a webdev freelancer
+comments: true
 ---
 
 # It Finally Happened!
@@ -21,7 +22,7 @@ My name is Nicholas Morris and I am a web developer and designer. I have been lo
 
 ## Case 1: Mobile Responsiveness
 
-In the event that the website lacks mobile responsiveness, or any responsiveness as all I bring it up, and mention how it affects their business and possibly leads to a loss of potential clients. In these cases the site often has a overall "good enough" design, so I often say how I like the overall feel of the site. I do this because I don't want them to think that I think their site is very bad, because I have no way of knowing if they like their site or not.
+In the event that the website lacks mobile responsiveness, or any responsiveness at all, I bring it up and mention how it affects their business and possibly leads to a loss of potential clients. In these cases the site often has a overall "good enough" design, so I often say how I like the overall feel of the site. I do this because I don't want them to think that I think their site is very bad, because I have no way of knowing if they like their site or not.
 
 ## Case 2: Overall Bad Design
 

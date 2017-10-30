@@ -3,6 +3,13 @@
     {% include header.html %}
     {{content}}
     {% include top-button.html %}
+
+    {% if page.comments %}
+        {% include disqus.html %}
+    {% endif %}
+
     {% include footer.html %}
+
+    
 </html>
 
