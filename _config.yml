@@ -13,12 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Nick's Uphill Battle
+title: Nick's Freelance Travels
 email: nicholasmrnickmorris@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  I'm really just trying to make a living by becoming
-  self employed. Join me as I (try to) build things in
-  order to get me there!
+description: A blog about my adventures as a webdev and design freelancer!
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/blog"
@@ -26,12 +23,22 @@ production_url : http://solarfloss.github.io/blog
 BASE_PATH : http://solarfloss.com/blog
 twitter_username: Nickels_7
 github_username:  SolarFloss
-youtube_usernmae: sonicmanqaz
+
+
+social:
+  name: Nicholas Morris
+  links:
+    - https://twitter.com/Nickels_7
+    - https://github.com/Solarfloss
+    - https://www.youtube.com/user/sonicmanqaz
+
 
 # Build settings
 markdown: kramdown
+
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

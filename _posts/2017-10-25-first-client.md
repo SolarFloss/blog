@@ -5,6 +5,8 @@ categories: freelancing dev
 permalink: /getting-my-first-client/
 edited: 2017-10-25 09:31:37 -0400
 published: true
+author: Nicholas Morris
+description: Getting my first client as a webdev freelancer
 ---
 
 # It Finally Happened!

@@ -5,6 +5,8 @@ categories: getting clients first work
 permalink: /first-steps-to-freelancing/
 edited: 2017-10-13 09:31:37 -0400
 published: true
+author: Nicholas Morris
+description: Learning how the webdev freelancing world works
 ---
 
 ### Before we get started
