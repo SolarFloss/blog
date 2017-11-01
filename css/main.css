@@ -230,6 +230,9 @@ body {
   .footer-wrapper {
     width: 80%; } }
 @media (max-width: 850px) {
+  #disqus_thread {
+    width: 90%; }
+
   /*
       Top wrapper
   */

@@ -17,6 +17,8 @@
     .footer-wrapper{
         width: $width;
     }
+
+    
 }
 
 
@@ -24,6 +26,11 @@
 
 
     $width: 90%;
+
+    #disqus_thread{
+        width: $width;
+    }
+
 
     /*
         Top wrapper
