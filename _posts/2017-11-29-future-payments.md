@@ -3,7 +3,7 @@ layout: post
 title:  "Charging For Future Work"
 categories: jekyll update
 permalink: /future-work/
-edited: 2017-10-09 09:31:37 -0400
+edited: 2017-11-29 09:31:37 -0400
 published: true
 author: Nicholas Morris
 description: How do I charge clients for future work
