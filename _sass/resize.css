@@ -12,14 +12,11 @@
   .footer-wrapper {
     width: 80%;
   }
-  #disqus_thread {
-    width: 80%;
-  }
 }
 
 @media (max-width: 850px) {
   #disqus_thread {
-    width: 100000%;
+    width: 90%;
   }
   /*
         Top wrapper
